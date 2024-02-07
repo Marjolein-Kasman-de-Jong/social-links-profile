@@ -1,0 +1,45 @@
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 384px;
+    margin: 0 24px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: var(--dark-grey);
+
+    @media screen and (min-width: 432px) {
+        padding: 40px;
+    }
+}
+
+.avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.location {
+    color: var(--green);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.user-quote {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.user-quotes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "userId": "001",
+        "name": "Jessica Randall",
+        "city": "London",
+        "country": "United Kingdom",
+        "quote": "Front-end developer and avid reader.",
+        "avatar": "../../images/avatar-jessica.jpeg",
+        "socials": ["GitHub", "Frontend Mentor", "LinkedIn", "Twitter", "Instagram"]
+    }
+]
