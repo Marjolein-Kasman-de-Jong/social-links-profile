@@ -1,8 +1,20 @@
-# React + Vite
+# Social Links Profile
+## Frontend Mentor Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
 
-Currently, two official plugins are available:
+The [challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) was to build out this social links profile and get it looking as close to the design as possible.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users should be able to:
+
+* See hover and focus states for all interactive elements on the page
+
+### Languages
+
+* HTML
+* CSS
+* JavaScript
+
+### Libraries
+
+* React
