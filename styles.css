@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Colors */
+  
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+/* Typography */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--white);
+}
+
+/* Social links profile card position */
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--off-black);
+}
+
+/* Social links profile card */
+
+article {
+    width: 87.2%;
+    max-width: 384px;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--dark-grey);
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+hgroup p {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--green);
+}
+
+/* Section - bio */
+
+.bio p {
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+/* Section - social-links */
+
+.social-links {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+li {
+    padding: 12px 0;
+    border-radius: 8px;
+    list-style-type: none;
+    background-color: var(--grey);
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: var(--green);
+    color: var(--off-black);
+}
